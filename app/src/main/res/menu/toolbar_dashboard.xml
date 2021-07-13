@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionNewTransaction"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="@string/action_new_transaction"
+        android:contentDescription="@string/action_new_transaction"
+        app:showAsAction="never"
+        />
+
+<!--
+    <item
+        android:id="@+id/editContentOverflow"
+        android:icon="@drawable/ic_baseline_more_vert_48"
+        android:title="@string/action_more"
+        android:contentDescription="@string/action_more"
+        android:orderInCategory="101"
+        app:showAsAction="always"/>-->
+
+
+</menu>
+
+

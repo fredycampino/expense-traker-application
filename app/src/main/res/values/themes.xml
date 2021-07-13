@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Expenses" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ExAppToolbar" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="colorPrimary">@color/colorOnPrimary</item>
+        <item name="android:background">@color/colorOnPrimary</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="titleTextColor">@color/colorPrimary</item>
+        <item name="titleTextAppearance">?textAppearanceHeadline6</item>
+    </style>
+
+    <style name="Progress" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminateTint">?colorPrimary</item>
+    </style>
+
+    <style name="ExTextInputLayout.ExposedDropdownMenu.NotLine" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="boxBackgroundColor">@color/colorShadow</item>
+        <item name="boxStrokeColor">@color/colorShadow</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/margin_normal</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/margin_normal</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/margin_normal</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/margin_normal</item>
+    </style>
+    <style name="ExTextInputLayout.FilledBox.NotLine" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="boxBackgroundColor">@color/colorShadow</item>
+        <item name="boxStrokeColor">@color/colorShadow</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/margin_normal</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/margin_normal</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/margin_normal</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/margin_normal</item>
+    </style>
+</resources>

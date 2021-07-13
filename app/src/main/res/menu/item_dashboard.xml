@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/overflow"
+        android:icon="@drawable/ic_round_expand_more_24"
+        android:orderInCategory="101"
+        android:title="@string/label_more"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/actionDelete"
+                android:title="@string/label_delete"
+                android:icon="@drawable/ic_baseline_delete_24"
+                android:contentDescription="@string/label_delete"
+                app:showAsAction="always|withText"
+                />
+        </menu>
+    </item>
+</menu>

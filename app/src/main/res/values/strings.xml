@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Expenses</string>
+    <string name="label_dashboard">Dashboard</string>
+
+    <string name="label_more">More</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_bank">Bank</string>
+    <string name="label_cash">Cash</string>
+    <string name="label_credit">Credit</string>
+    <string name="label_tax">Tax</string>
+    <string name="label_grocery">Grocery</string>
+    <string name="label_entertainment">Entertainment</string>
+    <string name="label_gym">Gym</string>
+    <string name="label_health">Health</string>
+    <string name="label_salary">Salary</string>
+    <string name="label_dividends">Dividends</string>
+    <string name="action_new_transaction">New Transaction</string>
+    <string name="label_new_transaction">New Transaction</string>
+    <string name="hint_requires_account">*Select an Account</string>
+    <string name="action_income">Income</string>
+    <string name="action_expense">Expense</string>
+    <string name="hint_requires_category">*Select Category</string>
+    <string name="hint_value">*Value</string>
+    <string name="action_done">Done</string>
+    <string name="error_error_in_server">An unexpected error has happened, code: %d</string>
+
+
+</resources>
